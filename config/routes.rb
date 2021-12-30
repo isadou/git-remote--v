@@ -4,13 +4,13 @@ Rails.application.routes.draw do
   get 'contact', to: 'pages#contact'
   get 'about', to: 'pages#about'
   # routes pour la table book
-  get 'books', to: 'books#index'
-  post 'books', to: 'books#create'
-  get 'books/new', to: 'books#new'
-  get 'books/:id/edit', to: 'books#edit'
-  get 'books/:id', to: 'books#show', as: :book
-  patch 'books/:id', to: 'books#update'
-  delete 'books/:id', to: 'books#destroy'
-
+  # get 'books', to: 'books#index'
+  # post 'books', to: 'books#create'
+  # get 'books/new', to: 'books#new'
+  # get 'books/:id/edit', to: 'books#edit'
+  # get 'books/:id', to: 'books#show', as: :book
+  # patch 'books/:id', to: 'books#update'
+  # delete 'books/:id', to: 'books#destroy'
+  resources :books
 
 end

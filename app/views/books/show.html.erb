@@ -3,8 +3,9 @@
 <p><%= @book.year %></p>
 <p><%= @book.resume %></p>
 <p><%= @book.price %>€</p>
-<%= link_to 'book list', books_path %>
+<%= link_to 'Edit', edit_book_path(@book) %>
 <%= link_to 'book delete',
   book_path(@book),
   method: :delete,
   data: { confirm: 'Are you sure?' } %>
+<%= link_to 'book list', books_path %>

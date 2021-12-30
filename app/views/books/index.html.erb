@@ -4,9 +4,10 @@
     <li><%= book.year %></li>
     <li><%= book.price %></li>
     <%= link_to 'book details', book_path(book) %>
+    <%= link_to 'Edit', edit_book_path(book) %>
   <% end %>
   <%= %>
-  <%= link_to 'book new', books_new_path %>
+  <%= link_to 'New Book', new_book_path %>
   <%= link_to "Back to Home", home_path %>
   <%= link_to "Know more about us", about_path %>
 </ul>
