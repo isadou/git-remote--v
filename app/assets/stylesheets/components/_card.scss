@@ -1,3 +1,7 @@
+.container {
+  margin-top: 20px;
+  padding-top: 40px;
+}
 .card-trip {
   overflow: hidden;
   background: white;
@@ -6,6 +10,19 @@
   margin-top: 10px;
   margin-bottom: 10px;
   width: 500px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+
+.card-form {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 800px;
+  padding-left: 25px;
   padding-bottom: 25px;
 }
 

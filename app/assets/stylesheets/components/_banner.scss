@@ -10,6 +10,18 @@
   align-content: center;
 }
 
+.banner1 {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), image-url('/assets/bibliotheque.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  width: 600px;
+  padding-left: 60px;
+  background-image: cover;
+  object-fit: cover;
+  align-content: center;
+  text-align: center;
+}
 .banner h1 {
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);

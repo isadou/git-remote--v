@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   # get 'books/:id', to: 'books#show', as: :book
   # patch 'books/:id', to: 'books#update'
   # delete 'books/:id', to: 'books#destroy'
+  root to: 'pages#home'
   resources :books
 
 end
